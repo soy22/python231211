@@ -1,0 +1,29 @@
+# List
+my_list = [1, 2, 3, 4, 5]
+
+# Tuple
+my_tuple = (1, 2, 3, 4, 5)
+
+# Set
+my_set = {1, 2, 3, 4, 5}
+
+# Dict
+my_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+
+# 비교
+print("List:", my_list)
+print("Tuple:", my_tuple)
+print("Set:", my_set)
+print("Dict:", my_dict)
+
+# 예시: 원소 추가
+my_list.append(6)
+# my_tuple[0] = 6  # 튜플은 수정 불가능하므로 에러 발생
+my_set.add(6)
+my_dict['f'] = 6
+
+print("\nAfter adding element:")
+print("List:", my_list)
+print("Tuple:", my_tuple)  # 튜플은 수정 불가능하므로 원소 추가 불가
+print("Set:", my_set)
+print("Dict:", my_dict)
