@@ -63,3 +63,16 @@ print('---리스트 내장---')
 print([i**2 for i in lst if i>5])
 tp = ('apple', 'tomato', 'orange')
 print([len(i) for i in tp])
+
+
+# 구구딘
+for i in [2,3,4,5,6]:
+    print('{0}단 출력'.format(i))
+    for j in [1,2,3,4,5,6,7,8,9]:
+        print('{0}*{1}={2}'.format(i,j,i*j))
+
+# f-string문법을 사용(최근에 더 많이 쓰는 버전)
+for i in [2,3,4,5,6]:
+    print(f'{i}단 출력')
+    for j in [1,2,3,4,5,6,7,8,9]:
+        print(f'{i}*{j}={i*j}')
